@@ -10,12 +10,16 @@
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="16"/>
+      <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="34"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="14"/>
         <value type="int" value="1"/>
         <value type="int" value="23"/>
+        <value type="int" value="26"/>
+        <value type="int" value="25"/>
+        <value type="int" value="24"/>
+        <value type="int" value="27"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -29,6 +33,8 @@
         <value type="int" value="13"/>
         <value type="int" value="7"/>
       </property>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="leave-opacity" type="uint" value="98"/>
     </property>
     <property name="panel-2" type="empty">
       <property name="autohide-behavior" type="uint" value="1"/>
@@ -65,6 +71,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
         <value type="string" value="firewall-applet"/>
         <value type="string" value=""/>
       </property>
@@ -129,14 +136,15 @@
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="true"/>
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-title" type="string" value="Applications"/>
-      <property name="button-icon" type="string" value="xfce4-whiskermenu"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="button-title" type="string" value=" EndeavourOS  "/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/endeavouros-icon.png"/>
       <property name="show-button-icon" type="bool" value="true"/>
-      <property name="button-single-row" type="bool" value="true"/>
+      <property name="button-single-row" type="bool" value="false"/>
       <property name="menu-height" type="int" value="400"/>
       <property name="menu-opacity" type="int" value="98"/>
       <property name="recent" type="array">
+        <value type="string" value="org.gnome.FileRoller.desktop"/>
         <value type="string" value="xfce4-file-manager.desktop"/>
       </property>
     </property>
@@ -145,7 +153,7 @@
       <property name="custom-title" type="string" value=""/>
       <property name="appearance" type="uint" value="0"/>
       <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
+        <value type="string" value="+lock-screen"/>
         <value type="string" value="-switch-user"/>
         <value type="string" value="-separator"/>
         <value type="string" value="-suspend"/>
@@ -165,6 +173,24 @@
     </property>
     <property name="plugin-23" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17329953093.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-25" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17329952992.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-26" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17329952831.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
     </property>
   </property>
 </channel>
