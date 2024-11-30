@@ -63,11 +63,8 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="firewall-applet"/>
-        <value type="string" value="ethernet network connection “wired connection 1” active"/>
-      </property>
+        <property name="square-icons" type="bool" value="true"/>
+    </property>
       <property name="known-items" type="array">
         <value type="string" value="firewall-applet"/>
       </property>
@@ -109,8 +106,6 @@
     </property>
     <property name="plugin-21" type="string" value="separator"/>
     <property name="plugin-22" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="~/"/>
-      <property name="icon-name" type="string" value="default-user-home"/>
     </property>
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="view-mode" type="int" value="0"/>
